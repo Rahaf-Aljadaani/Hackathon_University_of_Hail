@@ -16,7 +16,7 @@
  
  ### الواجهه الترحيبيه 
 
-![alt text](https://github.com/Rahaf-Aljadaani/Hackathon_University_of_Hail/ظinterfaces/#1.PNG?raw=true)
+![alt text](https://github.com/Rahaf-Aljadaani/Hackathon_University_of_Hail//interfaces/1.PNG?raw=true)
 
 
 
