@@ -5,20 +5,22 @@
 
 <div dir="rtl";text-align: right> موقع يسهل لك الوصول لكافة احتياجاتك من الزراعه سوا كنت فرد أو منشئه  </div>
 
-ماتحتاج تكتب كود فقط اللي تسويه خطوتين
 
+ ### الواجهه الترحيبيه 
 
-### الواجهه الترحيبيه
-
-![alt text](https://github.com/Rahaf-Aljadaani/Hackathon_University_of_Hail//interfaces/#1.PNG?raw=true)
+![alt text](https://github.com/Rahaf-Aljadaani/Hackathon_University_of_Hail//interfaces/#1.PNG)
 
 
 
 ## صاحبة الفكرة 
-تسنيم عبدالله 
+<div dir="rtl";text-align: right> تسنيم عبدالله </div>
 
-## المبرمجين 
-رهف الجدعاني
-نوره محمد 
+
+## المبرمجين
+<div dir="rtl";text-align: right> رهف الجدعاني </div>
+<div dir="rtl";text-align: right> نوره محمد </div>
+
+
+ 
 
 
