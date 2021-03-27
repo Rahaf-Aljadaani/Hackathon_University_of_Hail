@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".farme">
+    <LinearLayout
+        android:id="@+id/rows"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="347dp">
+
+        <LinearLayout
+            android:id="@+id/rows4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="275dp"
+            android:layout_marginTop="30dp"
+            tools:layout_editor_absoluteY="347dp">
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/ic_14"
+                android:layout_marginRight="250dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="page1"/>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="74dp"
+                android:layout_height="78dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                app:layout_constraintHorizontal_bias="0.896"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.045"
+                android:layout_gravity="right"
+                app:srcCompat="@drawable/up" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:background="@drawable/out"
+            android:layout_marginLeft="150dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:text="اهلا كيف أقدر أساعدك ؟"
+                android:textColor="#252323"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/in"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:text="كيف ازرع الطماطم في البيت ؟"
+                android:textColor="#252323"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/w23"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/in"
+            android:visibility="gone"
+
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#252323"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:layout_marginTop="250dp"
+            android:orientation="horizontal">
+
+                <ImageButton
+                    android:fitsSystemWindows="true"
+
+                    android:id="@+id/button2"
+                    android:layout_width="61dp"
+                    android:layout_height="59dp"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/ic_send"
+                    android:contentDescription="TODO"
+                    android:onClick="sendtext"
+                    android:padding="20dp"
+                    android:scaleType="fitCenter"
+                    tools:ignore="ContentDescription" />
+
+                <EditText
+                    android:fitsSystemWindows="true"
+
+                    android:id="@+id/texting"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/bubble"
+                    android:layout_marginTop="8dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="10dp"
+                    android:hint="اسأل هنا"
+                    android:singleLine="true"/>
+
+
+        </LinearLayout>
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:layout_marginTop="1dp"
+            app:srcCompat="@drawable/kkk"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bacground_row1"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            android:layout_marginTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:onClick="home"
+                app:srcCompat="@drawable/ho" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:onClick="profile"
+                app:srcCompat="@mipmap/ic_2" />
+
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="10dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginRight="50dp"
+                android:onClick="basket"
+                android:background="@mipmap/ic_4" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginRight="25dp"
+                android:onClick="chat"
+                android:background="@mipmap/ic_5" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
