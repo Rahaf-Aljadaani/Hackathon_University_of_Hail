@@ -6,9 +6,17 @@
  موقع يسهل لك الوصول لكافة احتياجاتك من الزراعه سوا كنت فرد أو منشئه  
 
 
+ ### محتويات الملف 
+ البروتوتايب
+ <br>
+التطبيق
+ <br>
+صور الواجهات 
+ 
+ 
  ### الواجهه الترحيبيه 
 
-![alt text](https://github.com/Rahaf-Aljadaani/Hackathon_University_of_Hail/interfaces/#1.PNG)
+![alt text](https://github.com/Rahaf-Aljadaani/Hackathon_University_of_Hail/ظinterfaces/#1.PNG)
 
 
 
