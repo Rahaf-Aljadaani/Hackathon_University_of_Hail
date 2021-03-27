@@ -12,12 +12,6 @@
 التطبيق
  <br>
 صور الواجهات 
- 
- 
- ### الواجهه الترحيبيه 
-
-![alt text](https://github.com/Rahaf-Aljadaani/Hackathon_University_of_Hail//interfaces/1.PNG?raw=true)
-
 
 
 ## صاحبة الفكرة 
